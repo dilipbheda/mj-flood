@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+@media ( min-width: 768px ){
+	.ratings.ratings-lg svg{ width: 30px; height: 30px; }
+	.ratings.ratings-lg ul li{ padding: 0 6px 6px; }
+}
+
+@media ( min-width: 992px ){
+	.banner-wrap .h1{ font-size: 55px; }
+	.assessment-box.product-overview-box .content-wrap p{ font-size: 23px; line-height: 1.26; }
+
+}
+
+@media (max-width: 1080px){
+
+	.step-box .h2{ font-size: 20px; min-height: 66px; }
+
+}
+
+@media (max-width: 1023px){
+
+	.assessment-question-box{ padding: 30px 60px; }
+
+}
+
+@media (max-width: 991px){
+
+	.title-section .content-wrap p{ font-size: 20px; }
+
+	.header-right{ padding: 12px 0px 12px 35px; }
+
+	.assessment-question-box{ padding: 30px 40px; }
+	.questions-wrap ul{ margin: 0 -8px -16px; }
+	.questions-wrap ul li{ padding: 0px 8px 16px; }
+
+	.question-box label{ font-size: 13px; line-height: 20px; padding: 10px 10px 10px 36px; }
+	.question-box label:before{ top: 10px; left: 10px; padding-right: 5px; }
+
+	.question-steps > ul > li{ width: 50%; }
+	.question-steps{ max-width: 530px; width: 100%; margin: 0 auto; }
+
+	.info-popup-wrap{ padding: 40px 35px 0px 20px; }
+	.info-popup-wrap .content-box{ padding-left: 30px; }
+
+	.banner-section{ height: 300px; }
+
+	.evolution-timeline-wrap .timeline-box{ min-width: 147px; }
+
+	.full-cols-section .col-left{ width: 100%; padding-right: 15px; }
+	.full-cols-section .col-right{ width: 100%; padding: 45px 15px 65px !important; }
+	.full-cols-section .col-box-content{ max-width: 100%; }
+	.full-cols-section.reverse-cols .col-left{ padding-left: 15px; padding-right: 0px; }
+	.img-backdrop{ padding: 50px 0; }
+
+	.two-cols-section .col-left{ width: 100%; max-width: 100%; }
+	.two-cols-section .col-right{ width: 100%; max-width: 100%; padding: 20px 15px 0px; }
+
+	.detail-table-cell{ width: 50%; }
+
+	.tire-discount-box{ min-width: 181px; padding: 0 5px; }
+
+	.popup.full-popup .popup-close{ top: 40px; right: 40px; }
+	.popup.full-popup .full-info-wrap{ text-align: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.popup.full-popup .full-info-content{ max-width: 100%; width: 100%; }
+	.popup.full-popup .full-info-img{ margin-left: 0; display: block; width: 100%; padding-top: 25px; }
+	.popup.full-popup .full-info-img span:before,
+	.popup.full-popup .full-info-img span:after{ display: none; }
+
+}
+
+@media (max-width: 767px){
+
+	.h1{ font-size: 34px; }
+	.h2{ font-size: 30px; }
+	.h3{ font-size: 22px; }
+
+	.title-section{ padding-bottom: 25px; }
+	.title-section .content-wrap p{ font-size: 16px; }
+
+	.title .subtitle{ font-size: 16px; padding-bottom: 10px; }
+
+
+	.cta-wrap{ padding-top: 20px; }
+
+	.content-wrap.content-lg p{ font-size: 16px; }
+
+	.header-wrap{ padding-top: 10px; height: 60px; }
+	.header-wrap .logo img{ max-width: 120px; }
+	.header-logos{ max-width: 200px; padding-right: 5px; }
+	.header-logos span + span{ margin-left: 10px; }
+	.header-right{ padding: 10px 0px 10px 35px; }
+	.header-user > a{ font-size: 14px; }
+	.header-help{ margin-left: 10px; padding-left: 10px; }
+	.header-help a{ width: 24px; line-height: 24px; }
+	.header-help a img{ width: 5px; }
+
+	.main-content{ min-height: calc(100vh - 112px); }
+
+	.footer-section{ padding: 14px 0; }
+	.footer-text{ font-size: 12px; }
+
+	.popup-content{ padding: 15px 15px 0 0; }
+	.popup-close{ width: 30px; line-height: 30px; }
+	.popup-close img{ width: 12px; }
+	.popup-form .form-content{ padding: 23px 25px 30px; }
+
+	.assessment-section{ padding: 45px 0; }
+	.assessment-box{ padding: 30px 20px; }
+	.assessment-box .title .h2{ font-size: 22px; }
+	.assessment-question-box{ padding: 30px; }
+	.questions-wrap ul li{ width: 100%; }
+
+	.home-wrap{ padding: 45px 0; }
+	.home-wrap .section-title .h1{ font-size: 30px; }
+
+	.question-steps > ul > li{ width: 100%; }
+
+	.step-box-wrap{ padding: 30px 15px; }
+	.step-box .h2{ font-size: 20px; min-height: 1px; }
+
+	.wet-winter-section{ padding: 45px 0 0; }
+
+	.info-popup-wrap{ padding: 30px 20px 0px 20px; }
+	.info-popup-wrap .content-box{ padding: 15px 0 15px 20px; }
+
+	.overview-box{ padding-top: 10px; }
+	.overview-points .result-icon{ width: 20px; height: 20px; }
+	.overview-points .result-icon:before{ background-size: 10px; }
+
+	.banner-section{ height: 230px; }
+
+	.evolution-timeline-inner{ margin-top: -60px; }
+	.evolution-timeline-wrap .timeline-box{ min-width: 97px; }
+	.timeline-box .img-wrap{ height: 120px; }
+	.timeline-box .timeline-text{ font-size: 16px; }
+
+	.img-backdrop{ padding: 30px 0; }
+	.full-cols-section .col-right{ padding: 20px 15px 35px !important; }
+
+	.section-cta{ padding: 20px 0 40px; }
+
+	.help-popup-content .h3 a{ display: inline; }
+
+	.market-overview-section{ padding: 45px 0; }
+
+	.detail-table-title{ padding: 12px 15px; }
+	.detail-table-row + .detail-table-row{ border-top: 20px solid #fff; }
+	.detail-table-wrap{ border-right: 0; }
+	.detail-table-col-left{ width: 100%; }
+	.detail-table-col-right{ width: 100%; border-top: 1px solid #DEDEDE; }
+	.detail-table-cell{ font-size: 16px; padding: 10px 14px; }
+
+	.tire-discount-section{ padding: 45px 0; }
+
+	.tire-discount-box{ min-width: 165px; }
+
+	.popup.full-popup .popup-close{ top: 15px; right: 15px; }
+
+	.overview-chart-title{ padding: 12px 15px; }
+	.overview-chart-content{ padding: 15px 15px 30px; }
+
+	.overview-chart svg text{ font-size: 10px; }
+
+}
+
+@media (max-width: 575px){
+
+	.header-wrap .logo img{ max-width: 90px; }
+	.header-logos{ padding: 0 5px; max-width: 62px; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.header-logos span + span{ margin: 5px 0 0 0; }
+	.header-right{ padding-left: 25px; }
+	.header-user > a{ font-size: 12px; }
+
+
+	.info-popup-wrap{
+		background: -webkit-linear-gradient(298deg, transparent 25px, #FFFFFF 26px) bottom right;
+		background: -moz-linear-gradient(298deg, transparent 25px, #FFFFFF 26px) bottom right;
+		background: -o-linear-gradient(298deg, transparent 25px, #FFFFFF 26px) bottom right;
+		background: -ms-linear-gradient(298deg, transparent 25px, #FFFFFF 26px) bottom right;
+		background: linear-gradient(298deg, transparent 25px, #FFFFFF 26px) bottom right;
+	}
+	.info-popup .popup-content{ padding-bottom: 0; }
+	.info-popup-wrap .img-wrap{ width: 100%; margin-bottom: 0; }
+	.info-popup-wrap .img-wrap img{ max-width: 110px; }
+	.info-popup-wrap .content-box{ width: 100%; padding: 25px 0; }
+	.content-box .title .h2{ font-size: 24px; }
+
+	.overview-bar{ bottom: -15px; padding: 0 17px; }
+	.overview-bar-wrap,
+	.overview-bar-wrap .progress-number{ font-size: 14px; line-height: 22px; }
+	.overview-bar-wrap{ padding: 10px 5px; }
+	.overview-bar-wrap:before, .overview-bar-wrap:after{ border-top-width: 21px; border-bottom-width: 21px; }
+	.overview-bar-wrap .progress-indicator{ margin-left: 10px; margin-right: 10px; height: 2px; }
+
+	.overview-bar-wrap .progress-result .result-icon{ width: 10px; height: 10px; border-width: 1px; }
+	.overview-bar-wrap .progress-result .result-icon + .result-icon{ margin-left: 5px; }
+	.overview-bar-wrap .progress-text{ margin-left: 10px; }
+
+}

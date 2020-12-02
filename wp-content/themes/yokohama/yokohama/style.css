@@ -1,0 +1,81 @@
+/*!
+Theme Name: Yoko Hama
+Theme URI:
+Author: Yoko Hama
+Author URI:
+Description: Custom theme: Yoko Hama, developed by Yoko Hama
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: yokohama
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Yoko Hama is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+#overlay{	
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height:100%;
+	display: none;
+	background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+.spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px #ddd solid;
+	border-top: 4px #E21E31 solid;
+	border-radius: 50%;
+	animation: sp-anime 0.8s infinite linear;
+}
+.submit-cta .spinner {
+	width: 20px;
+	height: 20px;
+}
+input[name="employee_id"] + .cv-spinner {
+	position: absolute;
+	right: 5px;
+	top: -17px;
+}
+input[name="employee_id"] + .cv-spinner .spinner {
+	width: 15px;
+	height: 15px;
+}
+@keyframes sp-anime {
+	100% { 
+		transform: rotate(360deg); 
+	}
+}
+.is-hide {
+	display:none;
+}
+.banner-section .banner-wrap .title {
+	text-transform: uppercase;
+}
+.tire-discount-box:nth-child(4) .bullet-list {
+  list-style: none !important;
+}
+.tire-discount-box:nth-child(4) .bullet-list li:before {
+  content: '✓';
+  top: 0;
+  border-radius: none;
+  border: none;
+}
